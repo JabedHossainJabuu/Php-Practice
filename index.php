@@ -7,18 +7,18 @@
     <title>PHP</title>
 </head>
 <body>
-    <?php
-    echo "Hello";
+<?php
+    echo "Hello <br><br>"; 
 
     $a=10;
     $b=20;
 
-    if($x>$y){
-        echo "X";
+    if($a>$b){
+        echo "A";
     }
     else{
-        echo "Y";
+        echo "B";
     }
-    ?>
+?>
 </body>
 </html>
