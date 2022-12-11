@@ -9,6 +9,16 @@
 <body>
     <?php
     echo "Hello";
+
+    $a=10;
+    $b=20;
+
+    if($x>$y){
+        echo "X";
+    }
+    else{
+        echo "Y";
+    }
     ?>
 </body>
 </html>
