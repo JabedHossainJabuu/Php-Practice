@@ -10,14 +10,20 @@
 <?php
     echo "Hello <br><br>"; 
 
-    $a=10;
-    $b=20;
+    //IF else if else condition <br><br
+    $t = date("H");
 
-    if($a>$b){
-        echo "A";
+    if($t<"10"){
+        echo "Have a good morning <br><br>";
+    }else if($t<"20"){
+        echo "Have a good Day <br><br>";
+    }else{
+        echo "Have a good night <br><br>";
     }
-    else{
-        echo "B";
+
+    //for loop
+    for($i=0; $i<=10; $i++){
+        echo "The number is: $i <br>";
     }
 ?>
 </body>
