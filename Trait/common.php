@@ -11,6 +11,4 @@ $object = new Bar;
 $object->abc();
 echo "<br>";
 $object->efg();
-
-
 ?>
